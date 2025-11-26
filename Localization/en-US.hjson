@@ -1,5 +1,5 @@
 Mods: {
-	uniteSlotSystemRemaster: {
+	USSR: {
 		Items: {
 			Wings: Wings
 			Boots: Boots
@@ -7,12 +7,12 @@ Mods: {
 			Magiluminescences: Magiluminescences
 			Necklaces: Necklaces
 			Scarfs: Scarfs
-			Heals: Heal accessory
-			Defences: Defense accessory
-			Revengeance: Revengeance accessory
-			Expert: Expert accessory
-			Building: Building accessory
-			Fishing: Fishing accessory
+			Heals: Heal Accessory
+			Defences: Defense Accessory
+			Revengeance: Revengeance Accessory
+			Expert: Expert Accessory
+			Building: Building Accessory
+			Fishing: Fishing Accessory
 		}
 
 		SocialItems: {
@@ -22,12 +22,12 @@ Mods: {
 			Magiluminescences: Social Magiluminescences
 			Necklaces: Social Necklaces
 			Scarfs: Social Scarfs
-			Heals: Social Heal accessory
-			Defences: Social Defense accessory
-			Revengeance: Social Revengeance accessory
-			Expert: Social Expert accessory
-			Building: Social Building accessory
-			Fishing: Social Fishing accessory
+			Heals: Social Heal Accessory
+			Defences: Social Defense Accessory
+			Revengeance: Social Revengeance Accessory
+			Expert: Social Expert Accessory
+			Building: Social Building Accessory
+			Fishing: Social Fishing Accessory
 		}
 
 		Configs: {
@@ -39,62 +39,62 @@ Mods: {
 
 				enableFishingAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Fishing] accessory slot
+					Label: Enable [Fishing] Accessory slot
 				}
 
 				enableBuildingAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Building] accessory slot
+					Label: Enable [Building] Accessory slot
 				}
 
 				enableExpertModeAccessorySlotOnlyAfterEoWorBoC: {
 					Tooltip: ""
-					Label: Enable [Expert] mode accessory slot only after defeating Eater of Worlds or Brain of Cthulhu.
+					Label: Enable [Expert] mode Accessory slot after defeating Eater of Worlds or Brain of Cthulhu.
 				}
 
 				enableExpertModeAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Expert]/[Revengeance & Death] mode accessory slot
+					Label: Enable [Expert]/[Revengeance & Death] mode Accessory slot
 				}
 
 				enableDefenseAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Defense] accessory slot
+					Label: Enable [Defense] Accessory slot
 				}
 
 				enableHealAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Healing] accessory slot
+					Label: Enable [Healing] Accessory slot
 				}
 
 				enableScarfAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Scarf] accessory slot
+					Label: Enable [Scarf] Accessory slot
 				}
 
 				enableNecklaceAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Necklace] accessory slot
+					Label: Enable [Necklace] Accessory slot
 				}
 
 				enableMagiluminescenceAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Magiluminescence] accessory slot
+					Label: Enable [Magiluminescence] Accessory slot
 				}
 
 				enableGearAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Gear] accessory slot
+					Label: Enable [Gear] Accessory slot
 				}
 
 				enableBootsAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Boots] accessory slot
+					Label: Enable [Boots] Accessory slot
 				}
 
 				enableWingsAccessorySlot: {
 					Tooltip: ""
-					Label: Enable [Wings] accessory slot
+					Label: Enable [Wings] Accessory slot
 				}
 
 				"Headers.Slots:": Slots:

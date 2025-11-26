@@ -1,12 +1,12 @@
 using System;
 using Terraria;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster;
-using uniteSlotSystemRemaster.AccessorySlots;
+using USSR;
+using USSR.AccessorySlots;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
-    internal class uSlotMagiluminescence : GlobalItem
+    internal class UnitedSlotSystemMagiluminescence : GlobalItem
     {
         public static int[] Items;
 
@@ -71,7 +71,7 @@ namespace uniteSlotSystemRemaster
             return true;
         }
 
-        static uSlotMagiluminescence()
+        static UnitedSlotSystemMagiluminescence()
         {
             int[] obj = new int[9]
             {

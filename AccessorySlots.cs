@@ -2,9 +2,9 @@ using System;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster;
+using USSR;
 
-namespace uniteSlotSystemRemaster.AccessorySlots
+namespace USSR.AccessorySlots
 {
     [Autoload(false)]
     public class BootsAccessorySlot : ModAccessorySlot
@@ -25,12 +25,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotBoots.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemBoots.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotBoots.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemBoots.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -38,10 +38,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Boots");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Boots");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Boots");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Boots");
                 break;
             }
         }
@@ -63,12 +63,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotBuilding.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemBuilding.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotBuilding.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemBuilding.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -76,10 +76,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Building");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Building");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Building");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Building");
                 break;
             }
         }
@@ -103,12 +103,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotDefence.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemDefence.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotDefence.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemDefence.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -116,10 +116,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Defences");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Defences");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Defences");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Defences");
                 break;
             }
         }
@@ -151,12 +151,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotExpert.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemExpert.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotExpert.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemExpert.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -164,10 +164,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Expert");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Expert");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Expert");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Expert");
                 break;
             }
         }
@@ -189,12 +189,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotFishing.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemFishing.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotFishing.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemFishing.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -202,10 +202,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Fishing");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Fishing");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Fishing");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Fishing");
                 break;
             }
         }
@@ -229,12 +229,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotGear.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemGear.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotGear.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemGear.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -242,10 +242,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Gears");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Gears");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Gears");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Gears");
                 break;
             }
         }
@@ -269,12 +269,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotHeal.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemHeal.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotHeal.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemHeal.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -282,10 +282,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Heals");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Heals");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Heals");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Heals");
                 break;
             }
         }
@@ -310,12 +310,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotMagiluminescence.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemMagiluminescence.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotMagiluminescence.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemMagiluminescence.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -323,10 +323,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Magiluminescences");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Magiluminescences");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Magiluminescences");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Magiluminescences");
                 break;
             }
         }
@@ -350,12 +350,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotNecklace.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemNecklace.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotNecklace.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemNecklace.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -363,10 +363,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Necklaces");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Necklaces");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Necklaces");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Necklaces");
                 break;
             }
         }
@@ -394,12 +394,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotRevengeance.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemRevengeance.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotRevengeance.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemRevengeance.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -407,10 +407,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Revengeance");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Revengeance");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Revengeance");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Revengeance");
                 break;
             }
         }
@@ -434,12 +434,12 @@ namespace uniteSlotSystemRemaster.AccessorySlots
 
         public override bool CanAcceptItem(Item checkItem, AccessorySlotType context)
         {
-            return Array.IndexOf(uSlotScarf.Items, checkItem.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemScarf.Items, checkItem.type) != -1;
         }
 
         public override bool ModifyDefaultSwapSlot(Item item, int accSlotToSwapTo)
         {
-            return Array.IndexOf(uSlotScarf.Items, item.type) != -1;
+            return Array.IndexOf(UnitedSlotSystemScarf.Items, item.type) != -1;
         }
 
         public override void OnMouseHover(AccessorySlotType context)
@@ -447,10 +447,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Scarfs");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Scarfs");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Scarfs");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Scarfs");
                 break;
             }
         }
@@ -487,10 +487,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
             switch (context)
             {
             case AccessorySlotType.FunctionalSlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.Items.Wings");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.Items.Wings");
                 break;
             case AccessorySlotType.VanitySlot:
-                Main.hoverItemName = Language.GetTextValue("Mods.uniteSlotSystemRemaster.SocialItems.Wings");
+                Main.hoverItemName = Language.GetTextValue("Mods.USSR.SocialItems.Wings");
                 break;
             }
         }

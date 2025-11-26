@@ -1,12 +1,12 @@
 using System;
 using Terraria;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster;
-using uniteSlotSystemRemaster.AccessorySlots;
+using USSR;
+using USSR.AccessorySlots;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
-    internal class uSlotRevengeance : GlobalItem
+    internal class UnitedSlotSystemRevengeance : GlobalItem
     {
         public static int[] Items;
 
@@ -63,7 +63,7 @@ namespace uniteSlotSystemRemaster
             return true;
         }
 
-        static uSlotRevengeance()
+        static UnitedSlotSystemRevengeance()
         {
             Items = ItemsStatic;
         }

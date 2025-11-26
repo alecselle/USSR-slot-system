@@ -1,8 +1,8 @@
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
-using uniteSlotSystemRemaster;
+using USSR;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
     public class Configuration : ModConfig
     {

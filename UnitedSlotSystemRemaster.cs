@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster.AccessorySlots;
+using USSR.AccessorySlots;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
-	public class uniteSlotSystemRemaster : Mod
+	public class USSR : Mod
 	{
 		public static bool revengeMode;
 

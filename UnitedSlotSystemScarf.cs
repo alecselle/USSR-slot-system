@@ -1,12 +1,12 @@
 using System;
 using Terraria;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster;
-using uniteSlotSystemRemaster.AccessorySlots;
+using USSR;
+using USSR.AccessorySlots;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
-    internal class uSlotScarf : GlobalItem
+    internal class UnitedSlotSystemScarf : GlobalItem
     {
         public static int[] Items;
 
@@ -121,7 +121,7 @@ namespace uniteSlotSystemRemaster
             return true;
         }
 
-        static uSlotScarf()
+        static UnitedSlotSystemScarf()
         {
             int[] obj = new int[29]
             {

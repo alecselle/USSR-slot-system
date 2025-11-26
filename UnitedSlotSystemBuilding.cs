@@ -1,13 +1,13 @@
 using System;
 using Terraria;
 using Terraria.ModLoader;
-using uniteSlotSystemRemaster;
-using uniteSlotSystemRemaster.AccessorySlots;
+using USSR;
+using USSR.AccessorySlots;
 
-namespace uniteSlotSystemRemaster
+namespace USSR
 {
     
-    internal class uSlotBuilding : GlobalItem
+    internal class UnitedSlotSystemBuilding : GlobalItem
     {
         public static int[] Items;
 
@@ -51,7 +51,7 @@ namespace uniteSlotSystemRemaster
             return true;
         }
 
-        static uSlotBuilding()
+        static UnitedSlotSystemBuilding()
         {
             int[] obj = new int[18]
             {
