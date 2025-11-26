@@ -1,0 +1,105 @@
+Mods: {
+	uniteSlotSystemRemaster: {
+		Items: {
+			Wings: Wings
+			Boots: Boots
+			Gears: Gears
+			Magiluminescences: Magiluminescences
+			Necklaces: Necklaces
+			Scarfs: Scarfs
+			Heals: Heal accessory
+			Defences: Defense accessory
+			Revengeance: Revengeance accessory
+			Expert: Expert accessory
+			Building: Building accessory
+			Fishing: Fishing accessory
+		}
+
+		SocialItems: {
+			Wings: Social Wings
+			Boots: Social Boots
+			Gears: Social Gears
+			Magiluminescences: Social Magiluminescences
+			Necklaces: Social Necklaces
+			Scarfs: Social Scarfs
+			Heals: Social Heal accessory
+			Defences: Social Defense accessory
+			Revengeance: Social Revengeance accessory
+			Expert: Social Expert accessory
+			Building: Social Building accessory
+			Fishing: Social Fishing accessory
+		}
+
+		Configs: {
+			Configuration: {
+				AllowEquippingInOtherSlots: {
+					Tooltip: ""
+					Label: Allow equipping in other slots
+				}
+
+				enableFishingAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Fishing] accessory slot
+				}
+
+				enableBuildingAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Building] accessory slot
+				}
+
+				enableExpertModeAccessorySlotOnlyAfterEoWorBoC: {
+					Tooltip: ""
+					Label: Enable [Expert] mode accessory slot only after defeating Eater of Worlds or Brain of Cthulhu.
+				}
+
+				enableExpertModeAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Expert]/[Revengeance & Death] mode accessory slot
+				}
+
+				enableDefenseAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Defense] accessory slot
+				}
+
+				enableHealAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Healing] accessory slot
+				}
+
+				enableScarfAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Scarf] accessory slot
+				}
+
+				enableNecklaceAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Necklace] accessory slot
+				}
+
+				enableMagiluminescenceAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Magiluminescence] accessory slot
+				}
+
+				enableGearAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Gear] accessory slot
+				}
+
+				enableBootsAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Boots] accessory slot
+				}
+
+				enableWingsAccessorySlot: {
+					Tooltip: ""
+					Label: Enable [Wings] accessory slot
+				}
+
+				"Headers.Slots:": Slots:
+				DisplayName: Configuration
+			}
+		}
+	}
+}

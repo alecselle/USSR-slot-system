@@ -1,0 +1,9 @@
+INFO:
+	This mod adds dedicated accesory slots for: Boots, Building, Defensive, Expert and Revengence(Calamity), Gears, Healing, Magiluminescences, Necklaces, Revengeance, Scarfs, Wings.
+	Each slot can be enabled/disabled.
+	!Ensure slots are empty before removing mod.  
+DEV INFO:
+	New: added inital support for Fargo's Enchantments
+CONTACT INFO:
+	Original Author - Discord: 13redspy
+	Modified By - Discord: djslapandtickle

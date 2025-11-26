@@ -1,3 +1,0 @@
-displayName = USSR (United Slot System Remastered)
-author = G-13
-version = 0.2.2
