@@ -11,7 +11,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)5000;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)4822;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)4822;
 
         public override bool IsEnabled()
         {
@@ -89,7 +89,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)1613;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)3998;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)3998;
 
         public override bool IsEnabled()
         {
@@ -129,7 +129,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)3223;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)3090;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)3090;
 
         public override bool IsEnabled()
         {
@@ -215,7 +215,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)984;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)4983;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)4983;
 
         public override bool IsEnabled()
         {
@@ -255,7 +255,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)860;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)4000;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)4000;
 
         public override bool IsEnabled()
         {
@@ -293,9 +293,10 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     [Autoload(false)]
     public class MagiluminescenceAccessorySlot : ModAccessorySlot
     {
-        public override string FunctionalTexture => "Terraria/Images/Item_" + (short)4989;
+        //public override string FunctionalTexture => "Terraria/Images/Item_" + (short)4989;
+        public override string FunctionalTexture => "Terraria/Images/Item_" + (short)5107;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)5107;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)5107;
 
         public override bool IsEnabled()
         {
@@ -335,7 +336,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)3212;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)4007;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)4007;
 
         public override bool IsEnabled()
         {
@@ -419,7 +420,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)3224;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)3809;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)3809;
 
         public override bool IsEnabled()
         {
@@ -459,7 +460,7 @@ namespace uniteSlotSystemRemaster.AccessorySlots
     {
         public override string FunctionalTexture => "Terraria/Images/Item_" + (short)493;
 
-        public override string VanityTexture => "Terraria/Images/Item_" + (short)665;
+        //public override string VanityTexture => "Terraria/Images/Item_" + (short)665;
 
         public override bool IsEnabled()
         {
